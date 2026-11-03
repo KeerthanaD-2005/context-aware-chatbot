@@ -1,0 +1,22 @@
+# Secrets and Environment Variables (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Python virtual environments & bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.log
