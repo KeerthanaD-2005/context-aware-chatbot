@@ -218,30 +218,4 @@ Tests include:
 
 ---
 
-## 📤 GitHub Submission Guide
 
-Follow these steps to push your project to GitHub:
-
-1. **Verify `.env` is ignored by Git:**
-   ```powershell
-   git status
-   ```
-   *(Ensure `.env` does NOT appear in the untracked files list!)*
-
-2. **Initialize Git and commit:**
-   ```powershell
-   git init
-   git add .
-   git commit -m "feat: context-aware chatbot with sliding window and summarization"
-   git branch -M main
-   ```
-
-3. **Link to your GitHub repository:**
-   Create a new public repository on GitHub (e.g. `context-aware-chatbot`), then run:
-   ```powershell
-   git remote add origin https://github.com/YOUR_USERNAME/context-aware-chatbot.git
-   git push -u origin main
-   ```
-
-4. **Submit:**
-   Paste your public GitHub repository URL into the submission form.
